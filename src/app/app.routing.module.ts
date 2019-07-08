@@ -20,7 +20,7 @@ const routes: Routes = [
   },
   {
     path: 'create-rooms',
-    loadChildren: './create-rooms/create-rooms.module#CreateRoomsmodule',
+    loadChildren: './create-rooms/create-rooms.module#CreateRoomsModule',
   },
 ];
 
