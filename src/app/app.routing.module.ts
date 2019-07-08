@@ -13,7 +13,15 @@ const routes: Routes = [
     path: 'connect',
     loadChildren: './connect/connect.module#ConnectModule',
     canActivate: [AlreadyConnectedGuard]
-  }
+  },
+  {
+    path: 'create-hostels',
+    loadChildren: './create-hostels/create-hostels.module#CreateHostelsModule',
+  },
+  {
+    path: 'create-rooms',
+    loadChildren: './create-rooms/create-rooms.module#CreateRoomsmodule',
+  },
 ];
 
 @NgModule({
